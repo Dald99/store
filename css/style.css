@@ -88,6 +88,7 @@ h3 {
     color: var(--blanco);
     font-size: 2rem;
     font-family: var(--fuentePrincipal);
+    transition: color .5s;
 }
 
 .navegacion__enlace:hover, .navegacion__enlace--activo {
@@ -139,6 +140,7 @@ h3 {
     background-color: var(--secundarioOscuro);
     border-radius: 2rem;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .producto__imagen {
@@ -148,6 +150,11 @@ h3 {
 
 .producto__nombre {
     font-size: 4rem;
+    transition: color .5s;
+}
+
+.producto__nombre:hover {
+    color: var(--primario);
 }
 
 .producto__precio {
@@ -217,6 +224,10 @@ h3 {
 
 .bloque {
     text-align: center;
+}
+
+.bloque img {
+    width: 50%;
 }
 
 .bloque__titulo {
